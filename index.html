@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booki - Trouver votre hébergement pour des vacances de rêve </title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <!-- MENU NAVIGATION -->
+
+    <header>
+        <nav>
+            <img id="logo" src="images/logo/Booki.png" alt="Logo">
+            <ul id="nav-section">
+                <li class="actif"> <a href="#container">Hébergements</a></li>
+                <li> <a href="#activity">Activités</a></li>
+            </ul>
+        </nav>
+
+        <!-- TEXTE -->
+
+        <div class="text-container">
+            <h1>Trouvez votre hébergement pour des vacances de rêve </h1>
+            <p>En plein centre ville ou en plaine nature </p>
+        </div>
+
+        <!-- SEARCH -->
+
+        <form method="post">
+            <div id="search-box">
+                <img id="location" src="images/Location.png" alt="Location">
+                <input type="search" value="Marseille, France" id="search">
+                <button id="search-button">
+                    <span id="search-text">Recherche</span>
+                    <span id="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                </button>
+            </div>
+        </form>
+
+        <!-- FILTERS -->
+
+        <div id="filters-section">
+            <p>Filtres</p>
+            <div id="filters">
+                <div class="filters">
+                    <i class="fa-solid fa-money-bill-wave"></i>
+                    <span class="filters-text">Économique</span>
+                </div>
+
+                <div class="filters">
+                    <i class="fa-solid fa-person"></i>
+                    <span class="filters-text">Familial</span>
+                </div>
+
+                <div class="filters">
+                    <i class="fa-solid fa-heart"></i>
+                    <span class="filters-text">Romantique</span>
+                </div>
+
+                <div class="filters">
+                    <i class="fa-solid fa-dog"></i>
+                    <span class="filters-text">Animaux autorisés</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="info">
+            <div id="info-logo">
+                <i class="fa-solid fa-info"></i>
+            </div>
+            <p id="info-text">Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+    </header>
+
+    
+    <script src="https://kit.fontawesome.com/c25fb28717.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
